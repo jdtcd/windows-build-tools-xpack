@@ -15,12 +15,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/xpack-dev-tools/windows-build-tools-xpack.git/"
+    "url": "https://github.com/jdtcd/windows-build-tools-xpack.git/"
   },
   "bugs": {
-    "url": "https://github.com/xpack-dev-tools/windows-build-tools-xpack/issues/"
+    "url": "https://github.com/jdtcd/windows-build-tools-xpack/issues/"
   },
-  "homepage": "https://github.com/xpack-dev-tools/windows-build-tools-xpack#readme",
+  "homepage": "https://github.com/jdtcd/windows-build-tools-xpack#readme",
   "keywords": [
     "xpack",
     "make",
@@ -32,6 +32,13 @@
     "email": "ilg@livius.net",
     "url": "https://github.com/ilg-ul/"
   },
+  "contributors": [
+    {
+      "name": "Jonathan Dukes",
+      "email": "jdukes@tcd.ie",
+      "url": "https://www.scss.tcd.ie"
+      }
+  ],
   "license": "MIT",
   "xpack": {
     "minimumXpmRequired": "0.10.2",
@@ -53,6 +60,9 @@
           "skip": true
         },
         "darwin-x64": {
+          "skip": true
+        },
+        "darwin-arm64": {
           "skip": true
         },
         "win32-x64": {
